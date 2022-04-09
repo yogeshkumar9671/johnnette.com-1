@@ -1,0 +1,557 @@
+@import url('http://fonts.cdnfonts.com/css/d-din');
+
+* {
+    font-family: 'D-DIN Condensed', sans-serif;
+    font-family: 'D-DIN Exp', sans-serif;
+    font-family: 'D-DIN', sans-serif;
+
+}
+
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: 'D-DIN', sans-serif;
+    /* font-size: 17px; */
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 17px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 90%;
+}
+
+.swiper-button-prev {
+    left: 3%;
+    font-family: 'D-DIN', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.swiper-button-next {
+    right: 3%;
+    font-family: 'D-DIN', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/* for banner */
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/industry/army5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.v_slide2,
+.v_slide3 {
+    background-image: url(../img/jf2/jf2_new.png);
+    background-color: black;
+    background-size: cover;
+}
+
+.text_container {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(14, 13, 13, 0.5);
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px black;
+    opacity: 1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.intro_text {
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-top: 100px;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.intro_text p {
+    font-size: 17px;
+    text-transform: none;
+    font-family: 'D-DIN', sans-serif;
+    text-align: left;
+}
+
+
+/* for table  */
+
+table {
+    width: 100%;
+}
+
+.trow {
+    border-bottom: 1px solid white;
+    display: block;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.property {
+    display: inline;
+    text-align: left;
+    font-size: 17px;
+}
+
+.value {
+    text-transform: lowercase;
+    display: block;
+    text-align: right;
+    font-size: 17px;
+}
+
+.g_color {
+    text-transform: lowercase;
+    color: gray;
+}
+
+.list_holder {
+    text-align: left;
+}
+
+.list_holder dl dt {
+    color: white;
+    font-size: 20px;
+}
+
+.list_holder dl dd {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.applications {
+    padding-top: 10px;
+    color: white;
+    text-align: left;
+    font-family: 'D-DIN', sans-serif;
+}
+
+/* table end  */
+
+
+/* horizontal slide 1 */
+
+.col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .v_slide2 .row, */
+
+
+/* .v_slide3 .row, */
+
+.h_slide1 .row,
+.h_slide5 .row,
+.h_slide6 .row,
+.h_slide2 .row,
+.h_slide3 .row,
+.h_slide4 .row {
+    height: 100%;
+    width: 100%;
+}
+
+.h_slide2 {
+    background-image: url(../img/jf2/jf2_new2.png);
+    background-size: cover;
+}
+
+.h_slide3 {
+    background-image: url(../img/jf2/jf2_new3.png);
+    background-size: cover;
+}
+
+/* .h_slide4 {
+    background-image: none;
+} */
+
+.h_slide1 .column1 .h_slide4 .column1 {
+    height: 100vh;
+    padding: 50px;
+}
+
+.h_slide6 .column2,
+.h_slide2 .column2,
+.h_slide3 .column2 {
+    height: 100vh;
+    padding: 50px;
+}
+
+.h_slide1 .th,
+.h_slide5 .th,
+.h_slide6 .th,
+.h_slide2 .th,
+.h_slide3 .th,
+.h_slide4 .th {
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.h_slide1 .column1 .th h3,
+.h_slide5 .column1 .th h3,
+.h_slide6 .column2 .th h3,
+.h_slide2 .column2 .th h3,
+.h_slide3 .column2 .th h3,
+.h_slide4 .column1 .th h3 {
+    font-size: 25px;
+    color: white;
+}
+
+.h_slide1 .column1 .th h2,
+.h_slide5 .column1 .th h2,
+.h_slide6 .column2 .th h2,
+.h_slide2 .column2 .th h2,
+.h_slide3 .column2 .th h2,
+.h_slide4 .column1 .th h2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+/* horizontal slide 1 end */
+
+@media screen and (max-width: 768px) {
+    .banner {
+        background-position: 70% center;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .intro_text {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+        padding-top: 10px;
+    }
+
+    .value,
+    .property {
+        font-size: 15px;
+    }
+
+    .v_slide2,
+    .v_slide3,
+    .v_slide4,
+    .h_slide1,
+    .h_slide2 {
+        background-image: none;
+        background-color: black;
+    }
+
+    .v_slide2 .row .column2 {
+        height: 40vh;
+    }
+
+    /* .v_slide2 .row .column2, */
+    /* .h_slide5 .row .column2, */
+    /* .h_slide6 .row .column1, */
+    .h_slide1 .row .column2 {
+        height: 10vh;
+        order: 1;
+    }
+    .h_slide4 .row .column2{
+        height: 9vh;
+        order: 1;
+    }
+    .h_slide2 .row .column1,
+    .h_slide3 .row .column1 {
+        height: 18vh;
+        order: 1;
+    }
+    .h_slide3 .row .column1{
+        height: 18vh;
+        order: 1;
+    }
+    .h_slide1 .row .column1,
+    .h_slide5 .row .column1,
+    .h_slide6 .row .column2,
+    .v_slide2 .row .column1,
+    .h_slide2 .row .column2,
+    .h_slide3 .row .column2,
+    .h_slide4 .row .column1 {
+        order: 2;
+    }
+
+    .v_slide2,
+    .h_slide1,
+    .h_slide5,
+    .h_slide6,
+    .h_slide4 {
+        background-image: url(../img/jf2/jf2_new_mobile2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+
+    .h_slide2 {
+        background-image: url(../img/jf2/slide2_mobile2.png);
+        background-size: cover;
+        background-position: center 50%;
+    }
+
+    .h_slide3 {
+        background-image: url(../img/jf2/jf2_new_mobile3.png);
+        background-size: cover;
+        background-position: center 50%;
+    }
+
+    .h_slide1 .column1,
+    .h_slide5 .column1,
+    .h_slide6 .column2,
+    .h_slide2 .column2,
+    .h_slide3 .column2,
+    .h_slide4 .column1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .h_slide1 .column1 .th h3,
+    .h_slide5 .column1 .th h3,
+    .h_slide6 .column1 .th h3,
+    .h_slide2 .column2 .th h3,
+    .h_slide3 .column2 .th h3,
+    .h_slide4 .column1 .th h3 {
+        font-size: 20px;
+    }
+
+    .h_slide1 .column1 .th h2,
+    .h_slide5 .column1 .th h2,
+    .h_slide6 .column1 .th h2,
+    .h_slide2 .column2 .th h2,
+    .h_slide3 .column2 .th h2,
+    .h_slide4 .column1 .th h2 {
+        font-size: 30px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: absolute;
+        top: 47%;
+    }
+
+    .swiper-button-prev {
+        left: 80%;
+        font-family: 'D-DIN', sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+
+    .swiper-button-next {
+        right: 3%;
+        font-family: 'D-DIN', sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+
+    .content{
+        margin: 20px 20px
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .v_slide2,
+    .v_slide3,
+    .v_slide4 {
+        background-position: 81% center;
+    }
+
+    .h_slide4,
+    .h_slide2 {
+        background-position: 15% center;
+    }
+
+    .h_slide3 {
+        background-position: 15% center;
+    }
+
+    .banner {
+        background-position: center center;
+    }
+
+    .intro_text {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    .h_slide1 .column1,
+    .h_slide5 .column1,
+    .h_slide6 .column1 {
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+
+    .h_slide2 .column2,
+    .h_slide3 .column2 {
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+
+    .h_slide1 .column1 .th h3,
+    .h_slide5 .column1 .th h3,
+    .h_slide6 .column2 .th h3,
+    .h_slide2 .column2 .th h3,
+    .h_slide3 .column2 .th h3,
+    .h_slide4 .column1 .th h3 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .h_slide1 .column1 .th h2,
+    .h_slide5 .column1 .th h2,
+    .h_slide6 .column2 .th h2,
+    .h_slide2 .column2 .th h2,
+    .h_slide3 .column2 .th h2,
+    .h_slide4 .column1 .th h2 {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .content{
+        margin: 50px 50px
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+    .intro_text {
+        padding-left: 100px;
+        padding-right: 0px;
+    }
+
+    .h_slide1 .column1,
+    .h_slide5 .column1,
+    /* .h_slide6 .column1, */
+    .h_slide4 .column1 {
+        padding-right: 0px;
+        padding-left: 100px;
+    }
+
+    .h_slide6 .column2,
+    .h_slide2 .column2,
+    .h_slide3 .column2 {
+        padding-left: 0px;
+        padding-right: 100px;
+    }
+
+    .h_slide1 .th,
+    .h_slide5 .th,
+    .h_slide6 .th,
+    .h_slide2 .th,
+    .h_slide3 .th,
+    .h_slide4 .th {
+        margin-bottom: 0px;
+    }
+
+    .h_slide1 .table_holder,
+    .h_slide5 .table_holder,
+    .h_slide6 .table_holder,
+    .h_slide2 .table_holder,
+    .h_slide3 .table_holder,
+    .h_slide4 .table_holder {
+        margin-top: 50px;
+    }
+    .content{
+        margin: 100px 100px
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .intro_text {
+        padding-left: 200px;
+        padding-right: 100px;
+    }
+
+    .h_slide1 .column1,
+    .h_slide5 .column1,
+    /* .h_slide6 .column1, */
+    .h_slide4 .column1 {
+        padding-right: 100px;
+        padding-left: 200px;
+    }
+
+    .h_slide6 .column2,
+    .h_slide2 .column2,
+    .h_slide3 .column2 {
+        padding-left: 100px;
+        padding-right: 200px;
+    }
+    .content{
+        margin: 100px 200px
+    }
+}
