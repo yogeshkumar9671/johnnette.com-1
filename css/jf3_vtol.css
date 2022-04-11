@@ -153,7 +153,7 @@ table {
 .head_banner .background_img {
     height: 100vh;
     width: 100%;
-    background-image: url(../img/industry/army5.png);
+    background-image: url(../img/jf2/army.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -220,7 +220,7 @@ table {
     top: 0;
     right: 0;
     left: 0;
-    background-image: url(../img/jf2/jf2_new.png);
+    background-image: url(../img/jf2/jf2_img1.png);
     background-size: cover;
 }
 
@@ -275,7 +275,7 @@ table {
 
 /* horizontal slide */
 .slide_container{    
-    background-image: url(../img/jf2/jf2_new.png); 
+    background-image: url(../img/jf2/jf2_img1.png); 
     background-repeat: no-repeat;
     background-size: cover;
 } 
@@ -290,13 +290,13 @@ table {
 
 
 .h_slide2 {
-    background-image: url(../img/jf2/jf2_new2.png);
+    background-image: url(../img/jf2/jf2_img2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .h_slide3 {
-    background-image: url(../img/jf2/jf2_new3.png);
+    background-image: url(../img/jf2/jf2_img3.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -351,7 +351,7 @@ table {
         height: 300vh;
     }
     .temp_background {
-        background-image: url(../img/jf2/jf2_new_mobile2.png); 
+        background-image: url(../img/jf2/jf2_mobile_img1.png); 
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
@@ -363,18 +363,18 @@ table {
         padding-top: 10px;
     }
     .slide_container{    
-        background-image: url(../img/jf2/jf2_new_mobile2.png); 
+        background-image: url(../img/jf2/jf2_mobile_img1.png); 
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
     } 
     .h_slide2 {
-        background-image: url(../img/jf2/slide2_mobile2.png);
+        background-image: url(../img/jf2/jf2_mobile_img2.png);
         background-size: cover;
         background-position: center 50%;
     }
     .h_slide3 {
-        background-image: url(../img/jf2/jf2_new_mobile3.png);
+        background-image: url(../img/jf2/jf2_mobile_img3.png);
         background-size: cover;
         background-position: center 50%;
     }
