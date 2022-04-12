@@ -144,7 +144,8 @@ table {
 .head_banner .background_img {
     height: 100vh;
     width: 100%;
-    background-image: url(../img/jf4/army.png);
+/*     background-image: url(../img/jf4/army.png); */
+    background-image: url(../img/jf4/army2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -335,7 +336,8 @@ table {
 
 @media screen and (max-width: 767px) {
     .background_img {
-        background-position: 70% center;
+/*         background-position: 70% center; */
+        background-position: 20% center;
     }
     .banner_text h1 {
         font-size: 40px;
