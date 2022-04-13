@@ -182,7 +182,8 @@ table {
     text-align: center;
     font-size: 25px;
     color: white;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
 }
 
 
@@ -268,6 +269,9 @@ table {
     font-size: 17px;
     color: white;
 }
+.intro_holder h3{
+    color: white;
+}
 
 
 /* intro section end */
@@ -322,7 +326,8 @@ table {
 .h_slide2 .column2 .th h3,
 .h_slide3 .column2 .th h3,
 .h_slide4 .column1 .th h3 {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 40px;
     color: white;
 }
 
@@ -346,6 +351,7 @@ table {
     }
     .banner_text p {
         font-size: 18px;
+        max-width: 650px;
     }
     .main_box_img {
         height: 300vh;
@@ -356,11 +362,22 @@ table {
         background-position: 50% 50%;
         background-size: cover;
     }
+    /* .bottom_content_position {
+        position: absolute;
+        top: 7%;
+    } */
     .intro_holder {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0;
+        padding-right: 0;
         height: 100%;
         padding-top: 10px;
+        /* background-color: rgba(14, 13, 13, 0.7); */
+    }
+    .intro_holder div{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        background-color: rgba(14, 13, 13, 0.7);
     }
     .slide_container{    
         background-image: url(../img/jf2/jf2_mobile_img1.png); 
@@ -421,7 +438,8 @@ table {
     .h_slide2 .column2 .th h3,
     .h_slide3 .column2 .th h3,
     .h_slide4 .column1 .th h3 {
-        font-size: 20px;
+        /* font-size: 20px; */
+        font-size: 30px;
     }
     .h_slide1 .column1 .th h2,
     .h_slide2 .column2 .th h2,
@@ -432,7 +450,8 @@ table {
     .swiper-button-next,
     .swiper-button-prev {
         position: absolute;
-        top: 47%;
+        /* top: 47%; */
+        top: 10%;
     }
     .swiper-button-prev {
         left: 80%;
@@ -482,7 +501,8 @@ table {
     .h_slide2 .column2 .th h3,
     .h_slide3 .column2 .th h3,
     .h_slide4 .column1 .th h3 {
-        font-size: 20px;
+        /* font-size: 20px; */
+        font-size: 40px;
         color: white;
     }
     .h_slide1 .column1 .th h2,
@@ -507,7 +527,8 @@ table {
         height: 300vh;
     }
     .intro_holder {
-        padding-left: 100px;
+        /* padding-left: 100px; */
+        padding-left: 50px;
         padding-right: 0px;
         max-width:650px;
     }
@@ -535,19 +556,30 @@ table {
     }
 }
 
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+    .intro_holder {
+        padding-left: 50px;
+        padding-right: 0px;
+        max-width:800px;
+    }
+}
+
 @media screen and (min-width: 1500px) {
     .intro_holder {
-        padding-left: 300px;
-        padding-right: 100px;
+        /* padding-left: 300px; */
+        padding-left: 70px;
+        /* padding-right: 100px; */
+        padding-right: 50px;
     }
     .h_slide1 .column1,
     .h_slide4 .column1 {
         padding-right: 100px;
         padding-left: 300px;
+        padding-left: 200px;
     }
     .h_slide2 .column2,
     .h_slide3 .column2 {
         padding-left: 100px;
-        padding-right: 300px;
+        padding-right: 200px;
     }
 }
