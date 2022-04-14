@@ -411,13 +411,16 @@ table {
         height: 20vh;
         order: 1;
     }
+    .h_slide4 .row .column1 .th h2{
+        margin-bottom: 10px;
+    }
     .h_slide2 .row .column1 {
         height: 18vh;
         order: 1;
     }
         
     .h_slide3 .row .column1 {
-        height: 20vh;
+        height: 21vh;
         order: 1;
     }
     .h_slide1 .row .column1,
