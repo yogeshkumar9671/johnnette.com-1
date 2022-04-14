@@ -408,17 +408,16 @@ table {
         order: 1;
     }
     .h_slide4 .row .column2 {
-        height: 15vh;
+        height: 20vh;
         order: 1;
     }
-    .h_slide2 .row .column1,
-    .h_slide3 .row .column1 {
+    .h_slide2 .row .column1 {
         height: 18vh;
         order: 1;
     }
         
     .h_slide3 .row .column1 {
-        height: 18vh;
+        height: 20vh;
         order: 1;
     }
     .h_slide1 .row .column1,
