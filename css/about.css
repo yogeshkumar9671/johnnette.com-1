@@ -247,13 +247,29 @@
     transform: rotate(360deg);
 }
 
-.box_3 .container_box>* {
+/* .box_3 .container_box>* {
     flex: 1 25%;
 }
 .box_2 .container_box>* {
     flex: 1 25%;
-}
+} */
 
+@media screen and (max-width: 4000px) {
+    .box_3 .container_box>* {
+        flex: 1 20%;
+    }
+    .box_2 .container_box>* {
+        flex: 1 20%;
+    } 
+}
+@media screen and (max-width: 2000px) {
+    .box_3 .container_box>* {
+        flex: 1 25%;
+    }
+    .box_2 .container_box>* {
+        flex: 1 25%;
+    } 
+}
 @media screen and (max-width: 1600px) {
     .box_3 .container_box>* {
         flex: 1 33%;
