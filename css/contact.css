@@ -137,7 +137,8 @@
 .containerr .contactInfo .box .text h3{
     font-weight: 500;
     font-size: 23px;
-    color: #00bcd4;
+/*     color: #00bcd4; */
+    color: white;
 }
 .contactForm{
     width: 40%;
@@ -186,7 +187,8 @@
 }
 .contactForm .inputBox input[type="submit"]{
     width: 100%;
-    background-color: #00bcd4;
+/*     background-color: #00bcd4; */
+    background-color: black;
     color: #fff;
     border: none;
     cursor: pointer;
