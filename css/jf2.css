@@ -451,8 +451,8 @@ table {
     .swiper-button-next,
     .swiper-button-prev {
         position: absolute;
-        /* top: 47%; */
-        top: 10%;
+        top: 47%;
+/*         top: 10%; */
     }
     .swiper-button-prev {
         left: 80%;
