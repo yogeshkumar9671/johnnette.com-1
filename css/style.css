@@ -10,7 +10,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: all .5s linear;
-    list-style: none;
+/*     list-style: none; */
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -496,6 +496,10 @@ body {
 
 .footer .footer-right>* {
     margin-right: 1.25em;
+}
+
+.footer ul{
+    list-style: none;
 }
 
 .footer .footer-right li {
