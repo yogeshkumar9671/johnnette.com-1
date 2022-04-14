@@ -24,12 +24,12 @@ menu.onclick = () => {
 //     submenu2.classList.toggle('active')
 // }
 
-let button3 = document.querySelector('#button3')
-let submenu3 = document.querySelector('#sub-menu-3')
-button3.onclick = () => {
-    button3.classList.toggle('fa-angle-double-up')
-    submenu3.classList.toggle('active')
-}
+// let button3 = document.querySelector('#button3')
+// let submenu3 = document.querySelector('#sub-menu-3')
+// button3.onclick = () => {
+//     button3.classList.toggle('fa-angle-double-up')
+//     submenu3.classList.toggle('active')
+// }
 
 
 
