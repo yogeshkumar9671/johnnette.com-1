@@ -8,9 +8,11 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .5s linear;
-/*     list-style: none; */
+    /* 
+    list-style: none;
+    text-transform: capitalize;
+    */
     box-sizing: border-box;
     outline: none;
     border: none;
