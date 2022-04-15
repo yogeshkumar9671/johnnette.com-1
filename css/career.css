@@ -64,3 +64,160 @@
         max-width: 650px;
     }
 }
+
+
+/* ===============---------------================= */
+
+.contact,
+.contact2 {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact .content,
+.contact2 .content {
+    text-align: center;
+    color: #fff;
+}
+
+.contact .content h2,
+.contact2 .content h2 {
+    font-size: 46px;
+    font-weight: 500;
+    color: white;
+}
+
+.containerr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact2 .containerr2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 0; */
+    margin-top: 30px;
+}
+
+.containerr .contactInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.containerr2 .contactInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.containerr .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.containerr2 .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.containerr .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.containerr2 .contactInfo .box .text {
+    display: flex;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.containerr .contactInfo .box .text h4,
+.containerr2 .contactInfo .box .text h4 {
+    color: white;
+}
+
+.containerr .contactInfo .box .text h3,
+.containerr2 .contactInfo .box .text h3 {
+    font-weight: 500;
+    font-size: 23px;
+    color: white;
+}
+
+.contactForm {
+    width: 50%;
+    padding: 40px;
+    background: #fff;
+}
+
+@media screen and (max-width: 1300px) {
+    .contact,
+    .contact2 {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .contact,
+    .contact2 {
+        padding: 50px;
+    }
+    .containerr,
+    .containerr2 {
+        flex-direction: column;
+    }
+    .containerr .contactInfo,
+    .containerr2 .contactInfo {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .contactForm {
+        width: 100%;
+    }
+    .containerr .contactInfo,
+    .containerr .contactForm,
+    .containerr2 .contactInfo,
+    .containerr2 .contactForm {
+        width: 100%;
+    }
+    .containerr .contactInfo {
+        order: 2;
+    }
+    .containerr .contactForm {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contact,
+    .contact2 {
+        padding: 10px;
+    }
+    .contact .content h2 {
+        font-size: 30px;
+    }
+}
