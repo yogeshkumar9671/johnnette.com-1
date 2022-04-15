@@ -525,7 +525,7 @@ body {
 .footer-bottom {
     text-align: center;
     color: #999;
-    padding-top: 20px;
+/*     padding-top: 20px; */
 }
 
 @media screen and ( min-width: 600px) {
