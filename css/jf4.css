@@ -354,10 +354,11 @@ table {
         height: 170vh;
     }
     .temp_background {
-        background-image: none;
-        background-repeat: no-repeat;
+/*         background-repeat: no-repeat;
         background-position: 50% 50%;
-        background-size: cover;
+        background-size: cover; */
+        background-image: none;
+        background-color: black;
     }
 
     .intro_holder {
