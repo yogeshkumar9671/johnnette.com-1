@@ -373,6 +373,9 @@ table {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .intro_holder div h1{
+        text-align: center;
+    }
     .slide_container{    
         background-image: url(../img/jf4/jf4_mobile_img1.png); 
         background-repeat: no-repeat;
