@@ -350,7 +350,8 @@ table {
         height: 400vh;
     }
     .bottom_content_position {
-        height: 200vh;
+/*         height: 200vh; */
+        height: 150vh;
     }
     .temp_background {
         background-image: none;
