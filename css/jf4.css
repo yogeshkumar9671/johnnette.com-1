@@ -1,6 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/d-din');
 
-/* Demo styles */
 body {
     font-family: 'D-DIN', sans-serif;
     color: #000;
@@ -144,7 +143,6 @@ table {
 .head_banner .background_img {
     height: 100vh;
     width: 100%;
-/*     background-image: url(../img/jf4/army.png); */
     background-image: url(../img/jf4/army2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -174,7 +172,6 @@ table {
     text-align: center;
     font-size: 25px;
     color: white;
-    /* text-transform: uppercase; */
     text-transform: capitalize;
 }
 
@@ -243,7 +240,6 @@ table {
     display: flex;
     justify-content: left;
     align-items: center;
-    /* max-width: 550px; */
     max-width: 950px;
     height: 100%;
     padding-left: 300px;
@@ -261,7 +257,6 @@ table {
     font-size: 17px;
     color: white;
 }
-
 .intro_holder h3{
     color: white;
 }
@@ -305,8 +300,8 @@ table {
 
 .h_slide1 .column1,
 .h_slide4 .column1,
-.h_slide2 .column2,
-.h_slide3 .column2 {
+.h_slide2 .column1,
+.h_slide3 .column1 {
     height: 100vh;
     padding: 50px;
 }
@@ -321,17 +316,16 @@ table {
 }
 
 .h_slide1 .column1 .th h3,
-.h_slide2 .column2 .th h3,
-.h_slide3 .column2 .th h3,
+.h_slide2 .column1 .th h3,
+.h_slide3 .column1 .th h3,
 .h_slide4 .column1 .th h3 {
-    /* font-size: 25px; */
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 }
 
 .h_slide1 .column1 .th h2,
-.h_slide2 .column2 .th h2,
-.h_slide3 .column2 .th h2,
+.h_slide2 .column1 .th h2,
+.h_slide3 .column1 .th h2,
 .h_slide4 .column1 .th h2 {
     font-size: 50px;
     font-weight: bolder;
@@ -342,45 +336,41 @@ table {
 
 @media screen and (max-width: 767px) {
     .background_img {
-/*         background-position: 70% center; */
-        background-position: 20% center;
+        background-position: 20% center; 
     }
     .banner_text h1 {
         font-size: 40px;
     }
     .banner_text p {
         font-size: 18px;
+        max-width: 650px;
     }
     .main_box_img {
-        height: 300vh;
+        height: 350vh;
+    }
+    .bottom_content_position {
+        height: 150vh;
     }
     .temp_background {
-        background-image: url(../img/jf4/jf4_mobile_img1.png); 
+        background-image: none;
         background-repeat: no-repeat;
-        /* background-position: 50% 50%; */
         background-position: 50% 50%;
         background-size: cover;
     }
-    /* .intro_holder {
-        padding-left: 20px;
-        padding-right: 20px;
-        height: 100%;
-        padding-top: 10px;
-    } */
 
     .intro_holder {
         padding-left: 0;
         padding-right: 0;
         height: 100%;
+        /* padding-top: 500px; */
         padding-top: 10px;
     }
     .intro_holder div{
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 10px;
-        background-color: rgba(14, 13, 13, 0.7);
+        padding-bottom: 10px;
     }
-
     .slide_container{    
         background-image: url(../img/jf4/jf4_mobile_img1.png); 
         background-repeat: no-repeat;
@@ -402,63 +392,66 @@ table {
         background-size: cover;
         background-position: center 50%;
     }
+    .h_slide3 .column1 .th h2{
+        padding-bottom: 35px;
+    }
+    .h_slide4 .column1 .th h2{
+        padding-bottom: 45px;
+    }
     .value,
     .property {
         font-size: 15px;
-    }
-    .intro_holder{
-        padding-top: 200px;
     }
     .h_slide1 .row .column2 {
         height: 15vh;
         order: 1;
     }
     .h_slide4 .row .column2 {
-        height: 15vh;
+        height: 20vh;
         order: 1;
     }
-    .h_slide2 .row .column1,
-    .h_slide3 .row .column1 {
+    .h_slide4 .row .column2 .th h2{
+        margin-bottom: 10px;
+    }
+    .h_slide2 .row .column2 {
         height: 18vh;
         order: 1;
     }
         
-    .h_slide3 .row .column1 {
-        height: 18vh;
+    .h_slide3 .row .column2 {
+        height: 21vh;
         order: 1;
     }
     .h_slide1 .row .column1,
-    .h_slide2 .row .column2,
-    .h_slide3 .row .column2,
+    .h_slide2 .row .column1,
+    .h_slide3 .row .column1,
     .h_slide4 .row .column1 {
         order: 2;
     }
 
     .h_slide1 .column1,
-    .h_slide2 .column2,
-    .h_slide3 .column2,
+    .h_slide2 .column1,
+    .h_slide3 .column1,
     .h_slide4 .column1 {
         padding-left: 20px;
         padding-right: 20px;
     }
     .h_slide1 .column1 .th h3,
-    .h_slide2 .column2 .th h3,
-    .h_slide3 .column2 .th h3,
+    .h_slide2 .column1 .th h3,
+    .h_slide3 .column1 .th h3,
     .h_slide4 .column1 .th h3 {
-        /* font-size: 20px; */
         font-size: 30px;
     }
     .h_slide1 .column1 .th h2,
-    .h_slide2 .column2 .th h2,
-    .h_slide3 .column2 .th h2,
+    .h_slide2 .column1 .th h2,
+    .h_slide3 .column1 .th h2,
     .h_slide4 .column1 .th h2 {
         font-size: 30px;
     }
     .swiper-button-next,
     .swiper-button-prev {
         position: absolute;
-        /* top: 47%; */
-        top: 10%;
+        top: 47%;
     }
     .swiper-button-prev {
         left: 80%;
@@ -489,35 +482,31 @@ table {
         background-position: 81% center;
     }
     .h_slide2 {
-        background-position: 18% center;
+        background-position: 85% center;
     }
     .h_slide3 {
-        background-position: 15% center;
+        background-position: 85% center;
     }
     .h_slide4 {
         background-position: 82% center;
     }
     .h_slide1 .column1,
-    .h_slide4 .column1 {
+    .h_slide4 .column1,
+    .h_slide2 .column1,
+    .h_slide3 .column1 {
         padding-right: 0px;
         padding-left: 50px;
     }
-    .h_slide2 .column2,
-    .h_slide3 .column2 {
-        padding-left: 0px;
-        padding-right: 50px;
-    }
     .h_slide1 .column1 .th h3,
-    .h_slide2 .column2 .th h3,
-    .h_slide3 .column2 .th h3,
+    .h_slide2 .column1 .th h3,
+    .h_slide3 .column1 .th h3,
     .h_slide4 .column1 .th h3 {
-        /* font-size: 20px; */
         font-size: 40px;
         color: white;
     }
     .h_slide1 .column1 .th h2,
-    .h_slide2 .column2 .th h2,
-    .h_slide3 .column2 .th h2,
+    .h_slide2 .column1 .th h2,
+    .h_slide3 .column1 .th h2,
     .h_slide4 .column1 .th h2 {
         font-size: 40px;
         font-weight: bolder;
@@ -537,20 +526,16 @@ table {
         height: 300vh;
     }
     .intro_holder {
-        /* padding-left: 100px; */
         padding-left: 50px;
         padding-right: 0px;
         max-width:650px;
     }
     .h_slide1 .column1,
-    .h_slide4 .column1 {
+    .h_slide4 .column1,
+    .h_slide2 .column1,
+    .h_slide3 .column1 {
         padding-right: 0px;
         padding-left: 100px;
-    }
-    .h_slide2 .column2,
-    .h_slide3 .column2 {
-        padding-left: 0px;
-        padding-right: 100px;
     }
     .h_slide1 .th,
     .h_slide2 .th,
@@ -576,22 +561,15 @@ table {
 
 @media screen and (min-width: 1500px) {
     .intro_holder {
-        /* padding-left: 300px; */
         padding-left: 70px;
-        /* padding-right: 100px; */
         padding-right: 50px;
     }
     .h_slide1 .column1,
-    .h_slide4 .column1 {
+    .h_slide4 .column1,
+    .h_slide2 .column1,
+    .h_slide3 .column1  {
         padding-right: 100px;
+        padding-left: 300px;
         padding-left: 200px;
     }
-    .h_slide2 .column2,
-    .h_slide3 .column2 {
-        padding-left: 100px;
-        padding-right: 200px;
-    }
 }
-
-
-
