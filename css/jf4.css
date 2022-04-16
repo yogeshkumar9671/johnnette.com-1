@@ -398,11 +398,11 @@ table {
         background-size: cover;
         background-position: center 50%;
     }
-    .h_slide3 .column1 .th h2{
-        padding-bottom: 35px;
+     .h_slide3 .column1 .th h2{
+        padding-bottom: 25px;
     }
     .h_slide4 .column1 .th h2{
-        padding-bottom: 45px;
+        padding-bottom: 35px;
     }
     .value,
     .property {
