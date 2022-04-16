@@ -344,6 +344,7 @@ table {
     .banner_text p {
         font-size: 18px;
         max-width: 650px;
+        padding: 0 20px;
     }
     .main_box_img {
         height: 350vh;
