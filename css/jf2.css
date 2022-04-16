@@ -344,10 +344,11 @@ table {
         height: 300vh;
     }
     .temp_background {
-        background-image: none;
-        background-repeat: no-repeat;
+/*         background-repeat: no-repeat;
         background-position: 50% 50%;
-        background-size: cover;
+        background-size: cover; */
+        background-image: none;
+        background-color: black;
     }
 
     .intro_holder {
@@ -361,6 +362,9 @@ table {
         padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    .intro_holder div h1{
+        text-align: center;
     }
     .slide_container{    
         background-image: url(../img/jf2/jf2_mobile_img1.png); 
