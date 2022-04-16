@@ -32,7 +32,8 @@
 
 <body style="background-color: black;" background="#000">
 
-        <header class="header show">
+
+    <header class="header show">
         <div class="header_background"></div>
         <div class="inner_header">
             <div id="logo">
@@ -60,11 +61,11 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="career.html">Carrer</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://www.johnnetteacademy.com/">Johnnette Academy</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
 
     <section>
         <div class="head_banner">
@@ -376,6 +377,27 @@
                 $('.c').css('opacity', '1')
             }
         });
+    </script>
+
+    <script>
+        function myFunction(x) {
+            if (x.matches) { // If media query matches
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() <= 2000) {
+                        $('.a').css('opacity', '1')
+                        $('.b').css('opacity', '1')
+                        $('.c').css('opacity', '0');
+                    } else {
+                        $('.a').css('opacity', '0')
+                        $('.b').css('opacity', '0')
+                        $('.c').css('opacity', '1')
+                    }
+                });
+            }
+        }
+        var x = window.matchMedia("(max-width: 768px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
     </script>
 
 </body>
