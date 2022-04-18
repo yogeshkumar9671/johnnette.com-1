@@ -149,7 +149,8 @@
     font-size: 30px;
     color: #333;
     font-weight: 500;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+    padding-bottom: 20px;
 }
 .contactForm .inputBox{
     position: relative;
