@@ -54,7 +54,16 @@ body {
     font-weight: bolder;
     color: white;
 }
-
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    color: white;
+    background-color: white;
+    opacity: 1;
+}
+.swiper-pagination .swiper-pagination-bullet{
+    color: white;
+    background-color: white;
+    opacity: .5;
+}
 
 /* Demo styles end */
 
