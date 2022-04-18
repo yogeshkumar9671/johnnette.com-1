@@ -222,3 +222,10 @@
         font-size: 30px;
     }
 }
+@media screen and (max-width: 430px) {
+    .contact,
+    .contact2 {
+        padding: 0px;
+    }
+}
+
