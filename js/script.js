@@ -43,6 +43,10 @@ const with_background = "show_background"
 window.onscroll = () => {
     const currentScrollPos = window.pageYOffset
     const halfScreenHeight = Math.floor(window.innerHeight / 2)
+    
+    menu.classList.remove('fa-times')
+    navbar.classList.remove('active')
+    other.classList.remove('active')
 
     if (currentScrollPos > halfScreenHeight) {
         background.classList.add(with_background)
