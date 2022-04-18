@@ -31,7 +31,7 @@
     max-width: 500px;
     overflow: hidden;
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(-70%);
     transition: all 1s;
     transition: opacity 1s, transform 1s;
 }
@@ -49,6 +49,20 @@
         position: absolute;
         bottom: 30%;
         left: 20rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    .box_container .bottom_content {
+        position: absolute;
+        bottom: 10%;
+        left: 2.5rem;
+        width: 70%;
+        max-width: 500px;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(-25%);
+        transition: all 1s;
+        transition: opacity 1s, transform 1s;
     }
 }
 
