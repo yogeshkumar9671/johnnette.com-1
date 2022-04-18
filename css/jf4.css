@@ -55,6 +55,17 @@ body {
     color: white;
 }
 
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    color: white;
+    background-color: white;
+    opacity: 1;
+}
+.swiper-pagination .swiper-pagination-bullet{
+    color: white;
+    background-color: white;
+    opacity: .5;
+}
+
 
 /* Demo styles end */
 
@@ -330,7 +341,9 @@ table {
     font-size: 50px;
     font-weight: bolder;
 }
-
+.middle_element{
+    height: 40px; display: inline-block; border: 1px solid white; margin: 0 50px;
+}
 
 /* horizontal slide end */
 
@@ -471,7 +484,12 @@ table {
         font-weight: bolder;
         color: white;
     }
+}
 
+@media screen and (max-width: 430px) {
+    .middle_element{
+        margin: 0 10px;
+    }
 }
 
 @media screen and (min-width: 768px) {                                                                  
