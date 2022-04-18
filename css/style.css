@@ -603,4 +603,7 @@ body {
     .footer .footer-right>* {
         flex: 1 100%;
     }
+    .footer-bottom {
+        padding-top: 20px;
+    }
 }
