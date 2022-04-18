@@ -1,10 +1,21 @@
-@import url('http://fonts.cdnfonts.com/css/d-din');
+/* @import url('http://fonts.cdnfonts.com/css/d-din'); */
+
+  @font-face {
+        font-family: "d-din";
+        src: url("fonts/D-DIN-Bold.otf");
+        src: url("fonts/D-DIN-Italic.otf");
+        src: url("fonts/D-DINExp.otf");
+        src: url("fonts/D-DINCondensed.otf");
+        src: url("fonts/D-DINCondensed-Bold.otf");
+        src: url("fonts/D-DINExp-Italic.otf");
+        src: url("fonts/D-DIN.otf");
+        }
 
 * {
     font-family: 'D-DIN Condensed', sans-serif;
     font-family: 'D-DIN Exp', sans-serif;
     font-family: 'D-DIN', sans-serif;
-
+    font-family: d-din;
 }
 
 .box_container {
@@ -34,7 +45,8 @@
     color: black;
     font-size: 17px;
     font-weight: 500;
-    font-family: 'D-DIN', sans-serif;
+/*     font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
     text-align: left;
     text-transform: none;
     /* background-color: rgba(255, 255, 255, 0.9); */
@@ -43,7 +55,8 @@
 
 .box_container .about_bottom .about_mission {
     color: black;
-    font-family: 'D-DIN', sans-serif;
+/*     font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
     text-align: center;
     text-transform: none;
     margin-top: 50px;
@@ -51,7 +64,8 @@
 
 .vision_header,
 .mission_header{
-    font-family: 'D-DIN', sans-serif;
+/*     font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: bold;
@@ -62,7 +76,8 @@
 .mission .header,
 .mission .content {
     color: black;
-    font-family: 'D-DIN', sans-serif;
+/*     font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
 }
 
 .box_container .about_bottom .about_mission .col-md-6 {
@@ -75,7 +90,8 @@
 }
 
 .box_container .about_bottom .about_mission .col-md-6 .vision .header {
-    font-family: 'D-DIN', sans-serif;
+/*     font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
     font-weight: 600;
     padding-top: 10px;
     margin-bottom: 50px;
