@@ -301,7 +301,7 @@
 /* ---------------------------------awards----------------------------- */
 .awards{
     margin-top: 75px;
-    display: inline-block;
+    display: block;
 /*     background-color: #fff; */
 }
 
@@ -361,7 +361,7 @@
 
 .letters{
     margin-top: 75px;
-    display: inline-block;
+    display: block;
 }
 .letters .box_1 h1{
     text-align: center; 
