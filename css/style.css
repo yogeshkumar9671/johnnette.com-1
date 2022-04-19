@@ -598,6 +598,7 @@ header {
     }
     .footer .icons {
         margin-right: 0;
+        padding-top:30px;
     }
     
     .footer-right .box_four .fab-icons{
