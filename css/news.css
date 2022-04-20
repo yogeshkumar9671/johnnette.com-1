@@ -32,7 +32,7 @@
 .media,
 .media2 {
     /* min-height: 50vh; */
-    height: 370px;
+    /* height: 370px; */
     display: flex;
     justify-content: center;
     align-items: center;
