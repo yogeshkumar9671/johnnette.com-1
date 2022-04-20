@@ -43,6 +43,7 @@
 .box_container .about_bottom .about_content {
     padding: 20PX;
     color: black;
+    color: white;
     font-size: 17px;
     font-weight: 500;
 /*     font-family: 'D-DIN', sans-serif; */
@@ -55,6 +56,7 @@
 
 .box_container .about_bottom .about_mission {
     color: black;
+    color: white;
 /*     font-family: 'D-DIN', sans-serif; */
     font-family: d-din;
     text-align: center;
@@ -76,6 +78,7 @@
 .mission .header,
 .mission .content {
     color: black;
+    color: white;
 /*     font-family: 'D-DIN', sans-serif; */
     font-family: d-din;
 }
@@ -86,7 +89,7 @@
 
 .box_container .about_bottom .about_mission .col-md-6 .vision {
     padding: 0 20px 20px 20px;
-    background-color: white;
+/*     background-color: white; */
 }
 
 .box_container .about_bottom .about_mission .col-md-6 .vision .header {
@@ -99,7 +102,7 @@
 
 .box_container .about_bottom .about_mission .col-md-6 .mission {
     padding: 0 20px 20px 20px;
-    background-color: white;
+/*     background-color: white; */
 }
 
 .box_container .about_bottom .about_mission .col-md-6 .mission .header {
