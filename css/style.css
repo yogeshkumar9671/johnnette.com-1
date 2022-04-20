@@ -1,17 +1,29 @@
 @import url('http://fonts.cdnfonts.com/css/d-din');
 
-body{
-    background-color: black;
-}
+@font-face {
+    font-family: "d-din";
+    src: url("fonts/D-DIN-Bold.otf");
+    src: url("fonts/D-DIN-Italic.otf");
+    src: url("fonts/D-DINExp.otf");
+    src: url("fonts/D-DINCondensed.otf");
+    src: url("fonts/D-DINCondensed-Bold.otf");
+    src: url("fonts/D-DINExp-Italic.otf");
+    src: url("fonts/D-DIN.otf");
+    }
 
 * {
-    font-family: 'D-DIN Condensed', sans-serif;
+    /* font-family: 'D-DIN Condensed', sans-serif;
     font-family: 'D-DIN Exp', sans-serif;
-    font-family: 'D-DIN', sans-serif;
+    font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
     padding: 0;
     margin: 0;
     text-decoration: none;
     transition: all .5s linear;
+    /* 
+    list-style: none;
+    text-transform: capitalize;
+    */
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -30,7 +42,6 @@ header {
 .header {
     /* transform: translateY(-100%); */
     opacity: 0;
-    
 }
 
 .header.show {
@@ -47,6 +58,7 @@ header {
     left: 0;
     background-color: black;
     transform: translateY(-100%);
+    opacity: 1;
     /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
 }
 
@@ -100,7 +112,8 @@ header {
 .navbar ul li a {
     display: inline-block;
     text-decoration: none;
-    font-family: 'D-DIN', sans-serif;
+    /* font-size: 1.5rem; */
+    font-family: d-din;
     font-size: 14px;
     color: white;
     margin: .5rem 1rem;
@@ -156,6 +169,7 @@ header {
 
 #other-informations {
     height: 150vh;
+    /* width: 280px; */
     width: 310px;
     position: absolute;
     top: 0;
@@ -304,7 +318,7 @@ header {
     html {
         font-size: 50%;
     }
-    .icons {
+    header .icons {
         margin-right: 50px;
     }
 }
@@ -365,6 +379,9 @@ header {
         width: 130px;
     }
     .header .icons {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
         margin-right: 30px;
     }
 }
@@ -373,36 +390,70 @@ header {
 /* header media queries end */
 
 
+/* ----------------------content---------------- */
+
+body {
+    background: black;
+    display: grid;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 700px) and (min-width: 100px) {
+    #background-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.main {
+    visibility: hidden;
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    color: #9b9b9b;
+    line-height: 4.2em;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 /* --------------footer section------------------------ */
 
 .footer .icons {
-    padding-top: 50px;
-
-}
-.footer .icons .fab-icons{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: -15px;
 }
 
 .footer .icons .fab-icons a {
     cursor: pointer;
-    font-size: 2rem;
-    height: 4rem;
-    width: 4rem;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     background: #eee;
-    line-height: 4rem;
+    line-height: 3rem;
     text-align: center;
     text-decoration: none;
-    margin: 10px 0;
 }
 
 .footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
     background-color: black;
 }
 
@@ -412,18 +463,12 @@ header {
 
 .footer .footer-left {
     display: inline-block;
+    padding-top: 50px;
     padding-left: 75px;
+    padding-bottom: 30px;
     padding-right: 0;
     margin-right: 0;
     width: 200px;
-}
-@media screen and (max-width: 600px) {
-
-    .footer .footer-left{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 .footer .footer-left .left-box {
@@ -463,7 +508,6 @@ header {
     justify-content: space-between;
     list-style: none;
     margin-left: 270px;
-    margin-left: 210px;
 }
 
 .footer .footer-right>* {
@@ -484,6 +528,7 @@ header {
 }
 
 .box li a {
+    font-family: d-din;
     color: #999;
     display: inline-block;
     text-decoration: none;
@@ -497,16 +542,8 @@ header {
 .footer-bottom {
     text-align: center;
     color: #999;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
-
-.footer .box_five {
-    display: none;
-}
-.footer .box_six {
-    display: none;
-}
-
 
 @media screen and ( min-width: 600px) {
     .footer .footer-left {
@@ -525,23 +562,17 @@ header {
         padding-left: 25px;
     }
     .footer .footer-right {
-        margin-left: 170px;
-        margin-left: 50px;
+        margin-left: 150px;
     }
 }
 
-@media screen and (max-width: 900px) and (min-width: 768px) {
-    .footer ul {
-        padding-left: 0;
-    }
+@media screen and (max-width:768px) and (min-width: 600px) {
 
-    .footer-right .box_one,
-    .footer-right .box_two,
-    .footer-right .box_three,
-    .footer-right .box_four{
-        margin-right: 0;
+    .footer .footer-right>* {
+        flex: 1 40%;
     }
 }
+
 
 @media screen and (max-width: 990px) and (min-width: 600px) {
     .footer .footer-left {
@@ -551,33 +582,11 @@ header {
         margin-left: 55px;
     }
 }
-@media screen and (max-width: 768px) and (min-width: 599px){
-
-    .footer-right .box_four .fab-icons{
-        width: 110px;
-    }
-
-    .footer .footer-right>*{
-        flex: 1 45%;
-    }
-    .footer ul {
-        padding-left: 0px;
-    }
-
-    .footer-right .box_one,
-    .footer-right .box_two,
-    .footer-right .box_three,
-    .footer-right .box_four{
-        margin-right: 0;
-    }
-    .footer-right .box_two,
-    .footer-right .box_four{
-        padding-left: 30px;
-    }
-}
 
 @media screen and (max-width: 600px) and (min-width: 0px) {
-
+    .main {
+        font-size: 55px;
+    }
     .footer .footer-left {
         text-align: center;
         padding: 0;
@@ -598,35 +607,14 @@ header {
     }
     .footer .icons {
         margin-right: 0;
-        padding-top:30px;
-    }
-    
-    .footer-right .box_four .fab-icons{
-        width: 150px;
-        padding-right: 100px;
     }
 }
 
 @media screen and ( max-width: 430px) {
-    .footer-right .box_four{
-        display: none;
-    } 
     .footer .footer-right>* {
         flex: 1 100%;
     }
     .footer-bottom {
         padding-top: 20px;
-    }
-    .footer .box_one {
-        flex: 30%;
-        width: 20%;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .footer .box_five {
-        display: block;
-        padding-top: 30px;
-        padding-right: 20px;
     }
 }
