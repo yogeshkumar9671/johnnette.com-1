@@ -155,6 +155,68 @@
             }
         }
     </style>
+    <style>
+        .glabal_presence{
+            padding: 140px 50px;
+        }
+        .glabal_presence .content h2{
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 70px;
+        }
+        .flag{
+            display: flex;
+            justify-content: space-between;
+        }
+        .flag_image{
+            max-width: 300px;
+        }
+        .flag_content p{
+            color: white;
+            font-size: 16px;
+            letter-spacing: 1px;
+            word-spacing: 3px;
+        }
+        .flag_content p i{
+            color: white;
+            font-size: 15px;
+        }
+        @media screen and (max-width: 1100px) {
+            .flag1,
+            .flag2,
+            .flag3{
+                width: 200px;
+            }
+        }
+        @media screen and (max-width: 800px) {
+            .glabal_presence{
+                padding: 120px 20px;
+            }
+        }
+        @media screen and (max-width: 700px) {
+            .flag_image{
+            max-width: 400px;
+            }
+            .flag{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            }
+
+            .flag1,
+            .flag2,
+            .flag3{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .flag2,
+            .flag3{
+                margin-top: 50px;
+            }
+        }
+    </style>
     
 </head>
 
@@ -315,7 +377,7 @@
     
     
     
-     <section class="world_map">
+     <section class="world_map" id="global_reach">
         <div class="global_reach">
             <h2>Our Global Reach</h2>
              <!-- <br><br><br> -->
@@ -388,9 +450,78 @@
             </div>
         </div>
     </section>
+    
+    
+    
+    <section class="glabal_presence" id="glabal_presence">
+        <div class="content">
+            <h2>Global Presence</h2>
+            <div class="flag">
+                <div class="flag1">
+                    <div>
+                        <div class="flag_image">
+                            <img src="img/contact/bangladesh.png" class="img-fluid" alt="">
+                        </div>
+                        <br>
+                        <div class="flag_content">
+                            <p>
+                                C/O AlGEO Center <br>
+                                <span style="display: inline-block; margin-top: 0px;">
+                                    987, East Shewrapara,
+                                    <br> Mirpur, Dhaka 1216 
+                                <span><br>
+                                <span style="display: inline-block; margin-top: 0px;">
+                                    <br><i class="fas fa-phone"></i> +8801812181284 
+                                    <br><i class="fas fa-phone"></i>  +91-8074611720
+                                <span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flag2">
+                    <div>
+                        <div class="flag_image">
+                            <img src="img/contact/ghana.png" class="img-fluid" alt="">
+                        </div>
+                        <br>
+                        <div class="flag_content">
+                            <p style="word-wrap: break-word;">
+                                C/O Johnnette Jones Technologies<br>
+                                <span style="display: inline-block; margin-top: 0px;">
+                                    P. O. Box CT 3223
+                                    <br> Cantonments, Accra, Ghana
+                                <span><br>
+                                <span style="display: inline-block; margin-top: 0px;">
+                                    <br><i class="fas fa-phone"></i> +233 30 296 3619 
+                                <span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flag3">
+                    <div>
+                        <div class="flag_image" style="border: 1px solid white;">
+                            <img src="img/contact/united-arab-emirates.png" class="img-fluid " alt="">
+                        </div>
+                        <br>
+                        <div class="flag_content">
+                            <p>
+                                C/O Johnnette Middle East  <br>
+                                <span style="display: inline-block; margin-top: 0px;">
+                                    200, Al Saaha C Wing,
+                                    <br> Downtown Dubai,
+                                    <br> Near Burj Khalifa, Dubai, UAE
+                                <span><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
-    <br><br><br><br><br><br><br>
+    <br><br><br><br><br>
     
     <footer class="footer" id="product_list">
         <div class="footer-left">
