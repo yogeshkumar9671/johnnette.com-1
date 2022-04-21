@@ -94,6 +94,7 @@ table {
     display: inline;
     text-align: left;
     font-size: 17px;
+    text-transform: uppercase;
 }
 
 .value {
