@@ -7,6 +7,7 @@
 @media screen and (max-width: 600px) {
     .head_banner .background_img .img1 {
         padding-top: 50px;
+        margin-top: 50px;
     }
 }
 
