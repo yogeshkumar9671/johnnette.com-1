@@ -172,9 +172,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    .content h2 {
+    /* .content h2 {
         font-size: 30px;
-    }
+        font-size: 46px;
+    } */
 
     .containerr .media_image,
     .containerr2 .media_image2 {
