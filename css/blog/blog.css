@@ -49,6 +49,10 @@ p {
     margin: 6rem auto;
 } */
 
+.hero{
+    /* margin: 3rem auto; */
+}
+
 main {
     width: 100%;
     max-width: 62rem;
@@ -292,10 +296,10 @@ blockquote {
 }
 
 @media screen and (max-width: 1024px) {
-    .hero {
+    /* .hero {
         margin-top: 0;
-        margin-bottom: 0;
-    }
+        margin-bottom: 0 !important;
+    } */
     main {
         margin-top: 1.5rem;
     }
@@ -331,6 +335,11 @@ blockquote {
 }
 
 @media screen and (max-width: 768px) {
+    /* .hero {
+        margin-top: 0;
+        margin-bottom: 0 !important;
+    } */
+
     main {
         padding: 1rem;
     }
@@ -348,7 +357,7 @@ blockquote {
         height: 17rem;
     }
     .cards .card-container .card-text h4 {
-        max-height: 3rem;
+        max-height: 44px;
         overflow: hidden;
     }
     .cards .card-container .card-text p {
