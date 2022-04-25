@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career</title>
+    <link rel="icon" href="../img/logo/logo.webp ">
+
+    <link href="http://fonts.cdnfonts.com/css/d-din" rel="stylesheet">
+
+    <!-- font awesome cdn link -->
+    <!-- fa5-$-css  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/d-din');
+        @font-face {
+            font-family: "d-din";
+            src: url("../fonts/D-DIN-Bold.otf");
+            src: url("../fonts/D-DIN-Italic.otf");
+            src: url("../fonts/D-DINExp.otf");
+            src: url("../fonts/D-DINCondensed.otf");
+            src: url("../fonts/D-DINCondensed-Bold.otf");
+            src: url("../fonts/D-DINExp-Italic.otf");
+            src: url("../fonts/D-DIN.otf");
+        }
+        
+        * {
+            font-family: 'D-DIN Condensed', sans-serif;
+            font-family: 'D-DIN Exp', sans-serif;
+            font-family: 'D-DIN', sans-serif;
+            font-family: d-din;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            transition: all .5s linear;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+        }
+        
+        body {
+            background-color: black;
+        }
+        /* --------------footer section------------------------ */
+        
+        .footer .icons .fab-icons a {
+            cursor: pointer;
+            font-size: 1rem;
+            margin: 0 2px;
+            height: 1.9rem;
+            width: 1.9rem;
+            border-radius: 50%;
+            background: #eee;
+            color: rgb(0, 110, 255);
+            line-height: 1.9rem;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .footer {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            background-color: black;
+        }
+        
+        .footer>* {
+            flex: 1 100%;
+        }
+        
+        .footer .footer-left {
+            display: inline-block;
+            padding-top: 50px;
+            padding-left: 75px;
+            padding-bottom: 30px;
+            padding-right: 0;
+            margin-right: 0;
+            width: 200px;
+            font-family: d-din;
+        }
+        
+        .footer .footer-left .left-box {
+            display: inline-block;
+            width: fit-content;
+        }
+        
+        .footer .footer-left .left-box .img {
+            display: inline-block;
+            width: 195px;
+            height: auto;
+            text-align: center;
+        }
+        
+        .footer .footer-left .left-box .img img {
+            width: 65%;
+            height: auto;
+            text-align: center;
+        }
+        
+        .footer .footer-left .left-box .address {
+            font-size: small;
+            color: #999;
+            width: fit-content;
+            width: 195px;
+            text-align: center;
+        }
+        
+        .footer .footer-left .left-box .address .span_address {
+            text-align: center;
+            line-height: 18.5px;
+            display: inline-block;
+            padding-bottom: 20px;
+        }
+        
+        .footer .footer-right {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            list-style: none;
+            margin-left: 270px;
+        }
+        
+        .footer .footer-right>* {
+            margin-right: 1.25em;
+        }
+        
+        .footer ul {
+            list-style: none;
+        }
+        
+        .footer .footer-right li {
+            line-height: .5rem;
+        }
+        
+        .footer .footer-right li .box {
+            display: inline-block;
+            margin-top: 50px;
+        }
+        
+        .box li a {
+            color: #999;
+            display: inline-block;
+            text-decoration: none;
+            padding: 0 1.5rem;
+            margin-right: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: .5rem;
+            font-size: 14px;
+            line-height: 22px;
+            font-family: 'D-DIN', sans-serif;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            color: #999;
+            padding-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        @media screen and (min-width: 600px) {
+            .footer .footer-left {
+                flex: 0 0px;
+            }
+            .footer .footer-right>* {
+                flex: 1;
+            }
+            .footer .footer-right {
+                flex: 2 0px;
+            }
+        }
+        
+        @media screen and (max-width:1440px) and (min-width: 990px) {
+            .footer .footer-left {
+                padding-left: 25px;
+            }
+            .footer .footer-right {
+                margin-left: 150px;
+            }
+        }
+        
+        @media screen and (max-width:768px) {
+            .box li a {
+                line-height: 17px;
+            }
+        }
+        
+        @media screen and (max-width:768px) and (min-width: 600px) {
+            .footer .footer-right>* {
+                flex: 1 40%;
+            }
+        }
+        
+        @media screen and (max-width: 990px) and (min-width: 600px) {
+            .footer .footer-left {
+                padding-left: 0;
+            }
+            .footer .footer-right {
+                margin-left: 55px;
+            }
+        }
+        
+        @media screen and (max-width: 600px) and (min-width: 0px) {
+            .footer .footer-left {
+                text-align: center;
+                padding: 0;
+            }
+            .footer .footer-right {
+                margin-left: 0;
+            }
+            .footer .footer-right li .box {
+                margin-top: 30px;
+            }
+            .footer-right {
+                margin-left: 0;
+                padding-left: 0;
+            }
+            .footer-right .box {
+                margin-left: 0;
+                padding-left: 0;
+            }
+            .footer .icons {
+                margin-right: 0;
+            }
+        }
+        
+        @media screen and (max-width: 430px) {
+            .footer .footer-right>* {
+                flex: 1 100%;
+            }
+            .footer-bottom {
+                padding-top: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="left-box">
+                <div class="img">
+                    <a href="../index.html">
+                        <img src="../img/logo/logo.png" alt="">
+                    </a>
+                </div>
+                <br> <br>
+                <div class="address">
+                    <span class="span_address"> <br> Johnnette Technologies Pvt Ltd <br>
+                        WP-11, Sector 71, Near <br> Sapphire International School <br> Noida - 201307, India
+                        <br> <br> <span style="text-transform: lowercase;"><i class="fa fa-envelope"></i>
+                            contact@johnnette.in </span><br><i class="fas fa-mobile-alt"></i> &nbsp; +91 7780108418 <br>
+                    </span>
+                    <div class="icons">
+                        <div class="fab-icons">
+                            <a href="https://www.facebook.com/JOHNNETTETECHNOLOGIES/" target="_blank" class="fab fa-facebook-f"></a>
+                            <a href="https://www.linkedin.com/company/johnnette-technologies/" target="_blank" class="fab fa-linkedin-in"></a>
+                            <a id="youtube" href="https://www.youtube.com/channel/UCSLaO3SKQs4v4jUIgSacQgg" target="_blank" class="fab fa-youtube" style="color: red;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <ul class="box">
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../about.html#accolades">Accolades</a></li>
+                    <li><a href="../about.html#letters">Satisfactory Letters</a></li>
+                    <li><a href="https://www.johnnetteacademy.com/">Johnnette Academy</a></li>
+                    <li><a href="../career.html">Career</a></li>
+                    <li><a href="../contact.html#global_presence">Global Partners</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="box">
+                    <li><a href="../contact.html">Contact Us</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../#product_list"><strong
+                                style="color: rgb(208, 205, 205); color: #999;">Products</strong></a></li>
+                    <li><a href="../jf2.html">Johnnette JF-2</a></li>
+                    <li><a href="../jf3_vtol.html">Johnnette JF-3 VTOL</a></li>
+                    <li><a href="../jf4.html">Johnnette JF-4</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="box">
+                    <li><a href="../policy.html">Privacy Policy</a></li>
+                    <li><a href="../cookies.html">Cookies Policy</a></li>
+                    <li><a href="../terms.html">Terms</a></li>
+                    <li><a href="../img/pdf/Johnnette.pdf">Downloads</a></li>
+                    <li><a href="../news.html">News & Media Latest Update</a></li>
+                    <li><a href="../ethics_code.html">Code of Ethics and Business Conduct</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="footer-bottom">&copy; 2022 Johnnette Technologies Pvt Ltd. | All rights reserved. </div>
+    </footer>
+
+</body>
+
+</html>
